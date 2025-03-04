@@ -1,57 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
+    <title>Sidebar</title>
+    <link rel="stylesheet" href="css/style.css"> 
+    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script> 
 </head>
-<!-- prima parte  -->
 <body>
     <main>
         <div class="sidebar">
-            <img src="./img/img/logo.svg" alt="logo" class="logo">
-            <div class="colorwhite"><i class="fa-solid fa-house"></i>Home
-            </div>
-            <div class="colorgrey"><i class="fa-solid fa-magnifying-glass"></i>cerca
-            </div>
-            <div class="margintop">
-                <img src="./img/img/libreria.svg" alt="libreria" class="libreria"> <span class="colorgrey">La tua libreria</span>
-            </div>
-             <h3 class="colorwhite">Playlist</h3>
-             <i class="fa-solid fa-square-plus colorgrey2"></i>
-             <span class="colorgrey">Cerea playlist
-             </span>
-             <ul class="list1">
-                <li>nuova playlist</li>
-                <li>nuova playlist</li>
-                <li>nuova playlist</li>
-                <li>nuova playlist</li>
-             </ul>
-             <div>
-                <img src="./img/img/download.svg" alt="download" class="download"> <span class="colorgrey">Installa app</span>
-                <hr class="colorgrey">
-                <div class="margintopnuova">
-                    <img src="./img/img/profile.svg" alt="profile" class="profile">
-                    <span class="john">John Doe</span>
+            <section class="contenitorepadre">
+                <div class="top1">
+                    <img src="./img/img/logo.svg" alt="logo" class="logo">
+                    
+                    <div>
+                        <img src="./img/img/home.svg" alt="home" class="home">
+                        <span>Home</span>
+                    </div>
+                    
+                    <div class="colorgrey">
+                        <img src="./img/img/libreria.svg" alt="libreria" class="libreria">
+                        <span>Cerca</span>
+                    </div>
+                    
+                    <div class="margintop">
+                        <img src="./img/img/libreria.svg" alt="libreria" class="libreria">
+                        <span class="colorgrey">La tua libreria</span>
+                    </div>
+                    
+                    <h3 class="colorwhite">Playlist</h3>
+                    <i class="fa-solid fa-square-plus grandezza"></i>
+                    <span class="colorgrey">Crea playlist</span>
+
+                    <ul class="list1">
+                        <li>Nuova playlist</li>
+                        <li>Nuova playlist</li>
+                        <li>Nuova playlist</li>
+                        <li>Nuova playlist</li>
+                    </ul>
                 </div>
-             </div>
-        </div>
-        <div class="content">
-            <header>
-                <div class="upgrade">
-                    <!-- <span class="btn1"> Effettua L'upgrade/span></span> -->
-                     <button class="btn1"> EFFETTUA L'UPGRADE</button>
+
+                <!-- Seconda sezione -->
+                <div class="bottom1">
+                    <img src="./img/img/download.svg" alt="download" class="download">
+                    <span class="colorgrey">Installa app</span>
+                    <hr class="colorgrey">
+                    
+                    <div class="margintopnuova">
+                        <img src="./img/img/profile.svg" alt="profile" class="profile">
+                        <span class="john">John Doe</span>
+                    </div>
                 </div>
-            </header>
-                
+            </section>
         </div>
-        
-    </main>
+        <header>
+            <div class="flex">
+                <button class="btn1"> EFFETUA L'UPGRADE</button>
+            </div>
             
-    <!-- seconda parte  -->
-    <footer></footer>
-    
+            
+        </header>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
