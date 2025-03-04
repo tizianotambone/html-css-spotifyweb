@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    height: calc (100%-100px);
+    background-color: rgb(243, 14, 14);
+}
+footer{
+    height: 100px;
+    background-color: black;
+    display: flex;
+}
+.sidebar{
+    height: 100%;
+    width: 150px;
+    background-color: aqua;
+}
