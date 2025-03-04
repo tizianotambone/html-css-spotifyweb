@@ -4,16 +4,97 @@
     box-sizing: border-box;
 }
 main{
-    height: calc (100%-100px);
+    height: calc(100vh - 100px);
     background-color: rgb(243, 14, 14);
+    display: flex;
+}
+header{
+    position: sticky;
+    top: 0;
+    height: 75px;
+    background-color: #080b12;
 }
 footer{
     height: 100px;
     background-color: black;
-    display: flex;
 }
+    
 .sidebar{
     height: 100%;
     width: 150px;
-    background-color: aqua;
+    background-color: rgb(5, 5, 5);
+    
+    
 }
+.content{
+    width: calc(100% - 100px);
+    overflow-y: auto;
+   
+}
+.logo{
+    width: 100px;
+    margin-top: 30px;
+}
+.colorwhite{
+    color: white;
+    margin-top: 30px;
+}
+.libreria{
+    width: 20px;
+}
+.colorgrey{
+    color: grey;
+    margin-top: 20px ;
+    
+}
+.colorgrey2{
+    margin-top: 20px;
+    
+    color: gray;
+}
+.list1{
+    list-style-type: none;
+    color: grey;
+    line-height: 50px;
+}
+.margintop{
+    margin-top: 20px;
+}
+
+.download{
+    color: grey;
+    width: 10px;
+}
+.profile{
+    width: 20px;
+    background-color: gray;
+    border-radius: 50%;
+   
+}
+.john{
+    font-size: 10px;
+    color: white;
+    
+}
+.upgrade{
+   
+    text-align: end;
+    margin-right: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    
+}
+.btn1{
+    background-color: #080b12 ;
+    color: white;
+    border-radius: 50px;
+    height: 30px;
+    width: 170px;
+    border: 1px solid white;
+
+    
+}
+    
+    
