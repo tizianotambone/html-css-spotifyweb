@@ -17,7 +17,7 @@ header{
     top: 0;
     height: 75px;
     background-color: #080b12;
-    width: 100%;
+   width: 100%;
 }
 
 footer{
@@ -30,6 +30,7 @@ footer{
     width: 150px;
     background-color: rgb(5, 5, 5);
     padding: 10px;
+    display: flex;
     
     
 }
@@ -44,7 +45,11 @@ footer{
     justify-content: space-between;
 }
 .logo{
-    width: 20px;
+    width: 80px;
+    margin: 20px 0;
+}
+.margine{
+    margin: 5px 0;
 }
 .home{
     width: 20px;
@@ -63,16 +68,38 @@ footer{
     width: 20px;
 }
 .btn1{
-    border: 1pc solid white;
+    border: 1px solid white;
     border-radius: 20px;
-    height: 15px;
+    margin: 20px 20px;
+    background-color: #141922;
+    color: white;
     
 }
+    
 .flex{
     display: flex;
     justify-content: end;
     align-items: center;
 }
+.contenitorepadre2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.lista{
+    display: flex;
+    list-style-type: none;
+    
+    
+}
+.square{
+    display: flex;
+  
+}
+    
+
+    
     
 
 
