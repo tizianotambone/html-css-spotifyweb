@@ -105,9 +105,14 @@ footer{
     display: flex;
     list-style-type: none;
     margin-top: 10px 0;
+    
 }
 .lista1{
     list-style-type: none;
+}
+.ml2{
+    margin-left: 10px;
+    color: grey;
 }
 .top2{
     margin-top: 10px;
@@ -155,8 +160,10 @@ footer{
     font-size: 10px;
     margin-left: 0 auto;
     text-align: center;
-} */
+} 
+
 /* footer */
+
 .contenitoregod1{
     display: flex;
 }
