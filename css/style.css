@@ -11,6 +11,7 @@ main{
     height: calc(100vh - 100px);
     background-color:#141922;
     display: flex;
+    
 }
 header{
     position: sticky;
@@ -22,7 +23,7 @@ header{
 
 footer{
     height: 100px;
-    background-color: black;
+    background-color: #282828;
 }
     
 .sidebar{
@@ -33,6 +34,18 @@ footer{
     display: flex;
     
     
+}
+.contenitoregod{
+    width: calc(100% - 150px);
+    overflow-y: auto;
+    
+    
+}
+.sezione1{
+    /* display: flex; */
+    width: 100%;
+    flex-wrap: wrap;
+    height: 200px;
 }
 .content{
     width: calc(100% - 150px);
@@ -91,24 +104,41 @@ footer{
 .lista{
     display: flex;
     list-style-type: none;
-    
-    
+    margin-top: 10px 0;
 }
+.lista1{
+    list-style-type: none;
+}
+.top2{
+    margin-top: 10px;
+    color: grey;
+}
+.colorgrey{
+    color: grey;
+}
+    
+    
 .marginesx{
-    margin-left: 40px;
+    margin-top: 30px;
+    
 }
 .square{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  
+    justify-content: space-between;
+    align-items: center;
 }
+    
+   
+  
 .square2{
     display: flex;
+    justify-content: flex-start;
+    
+    
 }
 .card{
     width: 150px;
-    margin: 20px 20px;
+    margin: 20px;
 }
 .card2{
     width: 150px;
@@ -116,7 +146,35 @@ footer{
     border-radius: 50%;
     
 }
+.lettering{
+    font-size: 15px;
+    margin-left: 0 auto;
+    text-align: center;
+}
+.lettering2{
+    font-size: 10px;
+    margin-left: 0 auto;
+    text-align: center;
+} */
+/* footer */
+.contenitoregod1{
+    display: flex;
+}
+.size1{
+    width: 40px;
+}
+.foot1{
     
+}
+.colorwhite{
+    color: white;
+    width: 50px;
+}
+.ml{
+    margin: 20px 20px;
+}
+    
+
 
     
     
