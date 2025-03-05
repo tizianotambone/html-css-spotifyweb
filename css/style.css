@@ -87,7 +87,7 @@ footer{
     background-color: #141922;
     color: white;
     height: 30px;
-    
+    width: 200px;
 }
     
 .flex{
@@ -169,10 +169,18 @@ footer{
 }
 .size1{
     width: 40px;
+    margin-left: 10px;
 }
 .foot1{
-    
+    display: flex;
+   justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 15%;
+    margin-top: 20px;
 }
+   
+    
 .colorwhite{
     color: white;
     width: 50px;
@@ -180,9 +188,35 @@ footer{
 .ml{
     margin: 20px 20px;
 }
+.foot2{
+    display: flex;
+   justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin-top: 20px;
+}
+.bottoni{
+    align-items: center;
+}
     
-
-
+hr{
+    width: 50%;
+    height: 2px;
+    color: grey;
+}
+.inline{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+.linea2{
+    width: 40%;
+    color: grey;
+    height: 2px;
+    margin-right: 10px;
+}
     
     
 
