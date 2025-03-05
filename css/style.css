@@ -73,6 +73,7 @@ footer{
     margin: 20px 20px;
     background-color: #141922;
     color: white;
+    height: 30px;
     
 }
     
@@ -93,9 +94,27 @@ footer{
     
     
 }
+.marginesx{
+    margin-left: 40px;
+}
 .square{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   
+}
+.square2{
+    display: flex;
+}
+.card{
+    width: 150px;
+    margin: 20px 20px;
+}
+.card2{
+    width: 150px;
+    margin: 20px 20px;
+    border-radius: 50%;
+    
 }
     
 
