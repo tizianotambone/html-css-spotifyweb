@@ -88,10 +88,15 @@ footer{
     width: 20px;
 }
 .download{
-    width: 20px;
+    width: 15px;
+    margin-right: 5px;
+    
 }
 .profile{
     width: 20px;
+    background-color: grey;
+    border-radius: 50%;
+    margin-right: 5px;
 }
 .btn1{
     border: 1px solid white;
@@ -242,14 +247,21 @@ footer{
     margin: 20px 20px;
 }
 .bottoni{
+    display: flex;
     align-items: center;
-    padding-left: 10px;
+    justify-content: space-between;
+    width: 20%;
+}
+.line{
+    width: 80%;
+    margin: 0 auto;
 }
     
-hr{
-    width: 50%;
+.linefooter{
+    width: 80%;
     height: 2px;
     color: grey;
+    border: 1px solid gray;
 }
 .inline{
     display: flex;
@@ -265,6 +277,26 @@ hr{
 }
 .dynone-invert{
     display: none;
+    
+}
+.lineaverde{
+    background-color: yellowgreen;
+    height: 2px;
+    width: 40px;
+    margin: 0 auto;
+    border: none;
+}
+.margintop{
+    margin-top: 10px;
+}
+.mbtt{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+.play{
+    font-size: 30px;
     
 }
 /* mediaquery */
@@ -351,8 +383,9 @@ hr{
     }
     .top2{
         display: none;
-        
     }
+   
+        
     
     .dynone{
         display: none;
@@ -390,6 +423,7 @@ hr{
     }
     .download{
         margin-bottom: 10px;
+        
     }
     .fa-solid-fa-square-plus {
         display: none;
