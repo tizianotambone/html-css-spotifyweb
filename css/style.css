@@ -59,11 +59,11 @@ footer{
     width: 100%;
 }
 .logo{
-    width: 80px;
+    width: 100px;
     margin: 20px 0;
 }
 .margine{
-   
+   margin-top: 10px;
     padding-left: 10px;
 
 }
@@ -105,18 +105,25 @@ footer{
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    height: 50%;
     
 }
 .lista{
     display: flex;
     list-style-type: none;
     margin-top: 10px 0;
+    flex-wrap: wrap;
+    
     
 }
 .lista1{
     list-style-type: none;
     padding-left: 10px;
+    margin-top: 30px;
     
+}
+.mgtop{
+    margin-top: 10px;
 }
 
 
@@ -211,6 +218,7 @@ footer{
 }
 .bottoni{
     align-items: center;
+    padding-left: 10px;
 }
     
 hr{
@@ -239,9 +247,10 @@ hr{
         flex-wrap: wrap;
         
     }
-    .contenitorepadre2{
+    .lista{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
