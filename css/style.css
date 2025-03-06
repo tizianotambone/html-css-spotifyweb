@@ -58,6 +58,31 @@ footer{
     justify-content: space-between;
     width: 100%;
 }
+.hover:hover {
+    color: white;
+    cursor: pointer;
+}
+.btnhover:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+.relative{
+    position: relative;
+}
+.relative:hover .absolute{
+    display: inline-flex;
+}
+.absolute{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+     
+
 .logo{
     width: 100px;
     margin: 20px 0;
@@ -183,7 +208,10 @@ footer{
 }
 .card{
     width: 150px;
-    margin: 20px;
+    
+}
+.space{
+    margin: 0 20px;
 }
 .card2{
     width: 150px;
@@ -208,7 +236,7 @@ footer{
     display: flex;
 }
 .size1{
-    width: 40px;
+    width: 50px;
     margin: 10px;
 }
 .side{
@@ -298,6 +326,9 @@ footer{
 .play{
     font-size: 30px;
     
+}
+.minfontsize{
+    font-size: 10px;
 }
 /* mediaquery */
     
@@ -401,10 +432,10 @@ footer{
     }
     
     .contenitorepadre{
-        display: flex
-;
+        display: flex;
         align-items: flex-start;
     }
+    
     .sidebar{
         height: 100%;
         width: 50px;
