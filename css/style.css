@@ -87,10 +87,7 @@ footer{
     width: 100px;
     margin: 20px 0;
 }
-/* .logosmall{
-    display: none;
-    width: 20px;
-} */
+
 .margine{
    margin-top: 10px;
     padding-left: 10px;
@@ -179,8 +176,7 @@ footer{
 }
 .top1{
     height: 100%;
-    /* display: flex; */
-    /* justify-content: space-between; */
+    
     flex-direction: column;
 }
 .colorgrey{
@@ -370,6 +366,9 @@ footer{
         margin-top: 20px;
         margin-right: 20px;
     }
+    .bottoni{
+        width: 40%;
+    }
     
     
 }
@@ -415,6 +414,11 @@ footer{
     .top2{
         display: none;
     }
+    .top1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
    
         
     
@@ -441,17 +445,19 @@ footer{
         width: 50px;
         background-color: rgb(5, 5, 5);
         display: flex;
-        
-        
     }
+        
+        
     main{
         width: 100%;
     }
     .bottom1{
         display: flex;
-        margin-left: 10px;
+        
         flex-direction: column;
-    }
+        justify-content:center ; 
+        align-items: center;
+       }
     .download{
         margin-bottom: 10px;
         
